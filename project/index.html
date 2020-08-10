@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adyasha Mishra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home"> <img src="logo.png" alt="logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home" data-aos="fade-left">
+        <h1 class=" section__title section__title--intro ">
+            Hi, I am <strong>Adyasha Mishra</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro ">front-end dev</p>
+        <img src="ad.JPG " alt="a picture of Adyasha " class="intro__img ">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services " id="services " data-aos="zoom-in">
+        <h2 class="section__title section__title--services ">What I do</h2>
+        <div class="services ">
+            <div class="service ">
+                <h3>Design + Development</h3>
+                <p>HTML and Cascading Style Sheets (CSS) are the foundation of all web design projects. It’s of utmost importance that every site developed be well organized, using the latest HTML and CSS standards. All websites are built using responsive
+                    design techniques to make for a great mobile, tablet, and desktop experience.</p>
+            </div>
+            <!-- / service -->
+
+            <div class="service ">
+                <h3>E-Commerce</h3>
+                <p>E-Commerce websites are online portals that facilitate online transactions of goods and services through means of the transfer of information and funds over the Internet.Currently I am trying to build one myself to exploit my skills</p>
+            </div>
+            <!-- / service -->
+
+            <div class="service ">
+                <h3>Data Science Enthusiast</h3>
+                <p>Data scientists utilize their analytical, statistical, and programming skills to collect, analyze, and interpret large data sets. They then use this information to develop data-driven solutions to difficult business challenges. These feature
+                    are interesting due to which along with web development,I'm trying to learn data science. </p>
+            </div>
+            <!-- / service -->
+        </div>
+        <!-- / services -->
+
+        <a href="#work " class="btn ">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me " id="about " data-aos="zoom-in">
+        <h2 class="section__title section__title--about ">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about ">Student & Web developer</p>
+
+
+        <div class="about-me__body ">
+            <p>My name is Adyasha Mishra,I am currently completing my 3rd year of engineering at SIES GST, Nerul. I recently completed my web development internship at Cloud Counselage, looking for more internships opportunities inorder to improve my skills
+                and to deliver better solution to real world problems.</p>
+        </div>
+        <img src="a.gif " alt="cool gif " class="about-me__img ">
+    </section>
+
+    <!-- My Work -->
+    <section class=" my-work " id="work " data-aos="slide-up">
+        <h2 class="section__title section__title--work ">My works</h2>
+        <p class="section__subtitle section__subtitle--work ">These are my ongoing projects</p>
+
+        <div class="portfolio ">
+
+            <a class="portfolio__item ">
+                <img src="chatbot.png " alt=" " class="portfolio__img " width="500px " height="300px ">
+                <p>
+                    <h3>Chatbot</h3>
+                </p>
+            </a>
+
+
+            <a class="portfolio__item ">
+                <img src="ecommerce.jpg " alt=" " class="portfolio__img " width="500px " height="300px ">
+                <p>
+                    <h3>E-Commerce website</h3>
+                </p>
+            </a>
+
+
+            <a class="portfolio__item ">
+                <img src="movie.jpg " alt=" " class="portfolio__img " width="500px " height="300px ">
+                <p>
+                    <h3>Movie search website</h3>
+                </p>
+            </a>
+
+
+        </div>
+    </section>
+    <!-- My Sills -->
+    <section class="skills " id="skills ">
+        <h2 class="section__title section__title--about ">My Skills</h2>
+        <p class="section__subtitle section__subtitle--about "></p>
+        <p>HTML</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills html ">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills css ">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills js ">65%</div>
+        </div>
+
+        <p>React.js</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills react ">65%</div>
+        </div>
+        <p>Node.js</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills node ">60%</div>
+        </div>
+        <p>Express.js</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills express ">55%</div>
+        </div>
+        <p>Python</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills python ">50%</div>
+        </div>
+        <p>C</p>
+        <div class="container " data-aos="flip-left">
+            <div class="skills c ">75%</div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer " id="contact " data-aos="slide-up">
+        <!-- replace with your own email address -->
+        <a href="mailto:adyasha918@gmail.com " class="footer__link ">adyasha918@gmail.com</a>
+        <ul class="social-list ">
+            <li class="social-list__item ">
+                <a class="social-list__link " href="https://www.linkedin.com/ ">
+                    <i class="fab fa-linkedin "></i>
+                </a>
+            </li>
+
+            <li class="social-list__item ">
+                <a class="social-list__link " href="https://twitter.com ">
+                    <i class="fab fa-twitter "></i>
+                </a>
+            </li>
+            <li class="social-list__item ">
+                <a class="social-list__link " href="https://github.com ">
+                    <i class="fab fa-github "></i>
+                </a>
+            </li>
+        </ul>
+        <div class="row justify-content-center ">
+            <div class="col-auto ">
+                <p>© Copyright 2020 Adyasha Mishra</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="index.js "></script>
+
+</body>
+
+</html>
